@@ -1,7 +1,5 @@
 $(document).ready(function() {
-    $(".multiselect").select2({
-    background-color: 'red'
-});
+    $(".multiselect").select2();
 
     function matchStart(params, data) {
   // If there are no search terms, return all of the data
