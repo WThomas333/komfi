@@ -1,6 +1,7 @@
-alert("hej");
 $(document).ready(function() {
-    $('.multiselect').select2();
+    $(".multiselect").select2({
+    background-color: 'red'
+});
 
     function matchStart(params, data) {
   // If there are no search terms, return all of the data
